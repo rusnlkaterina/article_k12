@@ -1,0 +1,7 @@
+Sample Group Replicate sampleid
+DAM_Ecoli_1 group2 Rep1 DAM_Ecoli_1
+DAM_Ecoli_2 group2 Rep2 DAM_Ecoli_2
+DAM_Ecoli_3 group2 Rep3 DAM_Ecoli_3
+WT_Ecoli_1 group1 Rep1 WT_Ecoli_1
+WT_Ecoli_2 group1 Rep2 WT_Ecoli_2
+WT_Ecoli_3 group1 Rep3 WT_Ecoli_3
