@@ -33,13 +33,6 @@ library(clusterProfiler) # for functional enrichment analysis, particularly for 
 install.packages("enrichR") # for functional analysis
 library(enrichR)
 
-# for volcano plots formation 
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-BiocManager::install("EnhancedVolcano")
-
-library(EnhancedVolcano)
-
 # 2. Main analysis
 # Import feature counts table (1)
 countdata <- read.table("/Users/rusnlkaterina/Downloads/all_.counts", header = TRUE, skip = 0, row.names = 1)
